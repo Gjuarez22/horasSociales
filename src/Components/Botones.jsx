@@ -1,8 +1,9 @@
-export function Buscador({urlIcono},{textoBtn}) {
+export function Botones({urlIcono, textoBtn}) {
     return (
-     <button>
-        <img src="" alt="" />
-        
+     <button class="tamanio-boton" >
+        <img src={urlIcono} alt="Icono" />
+        <br></br>
+        {textoBtn}
      </button>
     );
   }

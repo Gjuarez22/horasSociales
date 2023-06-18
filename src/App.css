@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+  
+.cuadro {
+  border: 2px solid #A5A5A5;
+  border-radius: 20px;
+  margin: 4%;
+  padding: 20px;
+}
+
+.cuadro-grande {
+  width: 80%;
+  height: 60%;
+}
+
+.cuadro-botones {
+  width: 90%;
+  height: 200px;
+}
+
+.tamanio-boton{
+  width: 80%;
+  height: 155px;
+  border-radius: 20px;
+  background-color :#C0EAFF;
+  color:#44909A;
+  font-weight: bold;
+  border: 2px solid #A8A8A8;
+}
