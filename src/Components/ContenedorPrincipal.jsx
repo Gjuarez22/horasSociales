@@ -1,8 +1,8 @@
 
-export function ContenedorPrincipal({cuerpo}) {
+export function ContenedorPrincipal({ children }) {
     return (
-        <div class="cuadro">
-            {cuerpo}
+        <div class="cuadroPrincipal">
+            {children}
         </div>
     );
   }
