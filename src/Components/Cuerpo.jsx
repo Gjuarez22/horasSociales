@@ -42,6 +42,37 @@ export function Cuerpo() {
 
             <br/>
             <BuscadorCuerpo/>
+            <br/>
+            <br/>
+            <div class=" d-flex justify-content-center">
+              <div class="row"style={{width:"50%"}}>
+                <div class="col-4"> <BotonCuerpo
+            urlIcono="../assets/icons/paple_lapiz.png"
+            tamanioX="60"
+            colorFondo="#EDEDED"
+            coloLinea="#43B2DD"
+            tamanioBtn="2"
+            textoBtn="Atras"
+          /></div>
+                <div class="col-4"> <BotonCuerpo
+            urlIcono="../assets/icons/izquierda2ReColor.png"
+            tamanioX="60"
+            colorFondo="#EDEDED"
+            coloLinea="#43B2DD"
+            tamanioBtn="2"
+            textoBtn="Atras"
+          /></div>
+                <div class="col-4"> <BotonCuerpo
+            urlIcono="../assets/icons/izquierda2ReColor.png"
+            tamanioX="60"
+            colorFondo="#EDEDED"
+            coloLinea="#43B2DD"
+            tamanioBtn="2"
+            textoBtn="Atras"
+          /></div>
+              </div>
+            </div>
+
 
     </div>
   );

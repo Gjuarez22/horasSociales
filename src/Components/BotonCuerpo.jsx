@@ -1,7 +1,7 @@
-export function BotonCuerpo({negrita, tamanioBtn, urlIcono, textoBtn, coloLinea, tamanioX, tamanioY, colorLetra, colorFondo}) {
+export function BotonCuerpo({tamanioImgX,tamanioImgY,negrita, tamanioBtn, urlIcono, textoBtn, coloLinea, tamanioX, tamanioY, colorLetra, colorFondo}) {
    tamanioX = tamanioX+"%";
    tamanioY = tamanioY+"px";
-  tamanioBtn = tamanioBtn+"rem" 
+  tamanioBtn = tamanioBtn+"vw"; 
 
    const estilo = {
       width: tamanioX,
@@ -18,7 +18,7 @@ export function BotonCuerpo({negrita, tamanioBtn, urlIcono, textoBtn, coloLinea,
 
    return (
      <button style={estilo} >
-        <img src={urlIcono} alt="Icono" />
+        <img src={urlIcono} alt="Icono"  width={tamanioImgX} height={tamanioImgY}/>
         {textoBtn}
      </button>
     );

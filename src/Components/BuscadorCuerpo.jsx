@@ -20,6 +20,8 @@ const estiloTxt={
                 <div class="col-11"><input  type="text" placeholder ="Buscar en software de auditoria "style={estiloTxt}/></div>
           </div>   
         </div>
+        
+        
            
      );
    }
