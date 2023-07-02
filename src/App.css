@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -60,7 +62,6 @@
   width: 80%;
   height: 155px;
   border-radius: 20px;
-  background-color :#C0EAFF;
   color:#44909A;
   font-weight: bold;
   border: 2px solid #A8A8A8;
@@ -86,3 +87,4 @@ img{
   max-width: 100%;
   height: auto;
 }
+

@@ -5,19 +5,19 @@ export function Contenedor() {
 
         <div class="row">
           <div class="col-3"> 
-          <Botones urlIcono="../assets/icons/agregar.png" textoBtn="Plantillas de
-            Planes de Auditoría"  /> </div>
+          <Botones urlIcono="../assets/icons/icono_Auditoria.png" textoBtn="Plantillas de
+            Planes de Auditoría" tamanioImgX="70px"  colorBg="#FFF1A1"/> </div>
           <div class="col-3">
-            <Botones urlIcono="../assets/icons/crear_programas.png" textoBtn="Plantillas de
-              Planes de Auditoría" />
+            <Botones urlIcono="../assets/icons/icono_programas.png" textoBtn="Plantillas de
+              Planes de Auditoría" colorBg="#C0EAFF" tamanioImgX="70px"/>
           </div>
           <div class="col-3">
-            <Botones urlIcono="../assets/icons/crear_Plane.png" textoBtn="Plantillas de
-              Planes de Auditoría" />
+            <Botones urlIcono="../assets/icons/Icono_planes.png" textoBtn="Plantillas de
+              Planes de Auditoría" colorBg="#C0EAFF" tamanioImgX="70px"/>
           </div>
           <div class="col-3">
-            <Botones urlIcono="../assets/icons/configurar_elemmentos.png" textoBtn="Plantillas de
-              Planes de Auditoría" /> 
+            <Botones urlIcono="../assets/icons/Icono_elementos.png" textoBtn="Plantillas de
+              Planes de Auditoría" colorBg="#C0EAFF" tamanioImgX="70px"/> 
           </div>
         </div>
 

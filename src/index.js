@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Buscador } from './Components/buscador';
 import {Contenedor} from './Components/Contenedor';
 import {ContenedorPrincipal} from './Components/ContenedorPrincipal';
-import {Cuerpo} from './Components/Cuerpo';
+import {CuerpoParteSuperior} from './Components/CuerpoParteSuperior';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,9 +14,14 @@ root.render(
       <Buscador/>
       
       <ContenedorPrincipal>
+       
         <Contenedor/>
+
+       <div class ="cuadro">
+          <CuerpoParteSuperior/>
+
+        </div> 
         
-        <Cuerpo/>
    
       </ContenedorPrincipal>
       

@@ -3,7 +3,7 @@ export function BuscadorCuerpo() {
 const estiloDiv = {
     backgroundColor:'#EAEAEA',
     borderRadius: '20px',
-    width: "50%",
+    width: "60%",
     alignItems:"center",
 }
 
