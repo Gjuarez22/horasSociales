@@ -19,7 +19,7 @@ root.render(
 
        <div class ="cuadro">
           <CuerpoParteSuperior/>
-
+          
         </div> 
         
    
