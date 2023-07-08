@@ -1,5 +1,6 @@
-export function BotonCuerpo({espacioLetraImg, tamanioImgX,tamanioImgY,negrita, tamanioLetra, urlIcono, textoBtn, coloLinea, tamanioX, tamanioY, colorLetra, colorFondo}) {
- const estilo = {
+export function BotonCuerpo({anchoDivTexto, anchoDivImagen,imagenDerecha, rotar, tamanioImgX,tamanioImgY,negrita, tamanioLetra, urlIcono, textoBtn, coloLinea, tamanioX, tamanioY, colorLetra, colorFondo}) {
+   
+   const estilo = {
       width: tamanioX,
       height: tamanioY,
       borderRadius: '10px',
@@ -7,18 +8,16 @@ export function BotonCuerpo({espacioLetraImg, tamanioImgX,tamanioImgY,negrita, t
       color:colorLetra,
       fontWeight: negrita ? 'bold' : 'normal',
       border: '2px solid'+coloLinea,
-      display :'flex',
-      alignItems:"center",
-      fontSize:tamanioLetra
-   }
-   const estiloDivLetra = {
-      paddingLeft:espacioLetraImg
+      fontSize:tamanioLetra,
+      alignItems :" center"
+      
    }
    return (
-     <button style={estilo} >
-
-        <img src={urlIcono} alt="Icono"  width={tamanioImgX} height={tamanioImgY}/>
-       <div style={estiloDivLetra}> {textoBtn} </div>
+     <button class="row"style={estilo} > 
+       
+      {imagenDerecha &&  <div class={anchoDivTexto} >{textoBtn}</div>}  
+      <div class={anchoDivImagen} > <img src={urlIcono} alt="Icono"  style={{transform: rotar ? "rotate(180deg)" :"rotate(0deg)", width: tamanioImgX, height:tamanioImgY}}/></div> 
+       {!imagenDerecha &&  <div class={anchoDivTexto} >{textoBtn}</div> }
      </button>
     );
   }

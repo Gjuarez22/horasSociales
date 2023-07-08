@@ -5,38 +5,40 @@ export function CuerpoParteSuperior() {
   return (
     <div >
       <div class="row ">
-        <div class="col-4  text-right">
+        <div class="col-4  d-flex text-right">
           <BotonCuerpo
             urlIcono="../assets/icons/flecha.png"
-            tamanioX="50%"
-            tamanioY="100%"
+            tamanioX="60%"
             colorFondo="#EDEDED"
             coloLinea="#43B2DD"
-            tamanioLetra="2rem"
+            tamanioLetra="1.5rem"
             textoBtn="Atras"
-            tamanioImgX="40%"
+            tamanioImgX="100%"
+            imagenDerecha={false}
+            anchoDivImagen="col-6"
+            anchoDivTexto="col-6"
           />
         </div>
         <div class="col-4 ">
           <div class="titulo-cuerpo">
-            <h4>Plantillas de auditoría</h4>
+            <h4>Plantillas de Auditoría</h4>
           </div>
         </div>
-        <div class="col-4 d-flex justify-content-end">
-          <button
-            class="align-self-end"
-            style={{
-              width: "70%",
-              borderRadius: "20px",
-              backgroundColor: "#EDEDED",
-              border: "2px solid #43B2DD",
-              alignItems: "center",
-              fontSize: "2rem",
-              display: "flex",
-            }}
-          >
-            Adelante <img src="../assets/icons/derecha.png" alt="Icono" />
-          </button>
+
+        <div class="col-4 d-flex  d-flex justify-content-end">
+        <BotonCuerpo 
+            urlIcono="../assets/icons/flecha.png"
+            tamanioX="60%"
+            colorFondo="#EDEDED"
+            coloLinea="#43B2DD"
+            tamanioLetra="1.2rem"
+            textoBtn="Adelante"
+            tamanioImgX="100%"
+            rotar ="true"
+            imagenDerecha={true}
+            anchoDivImagen="col-6"
+            anchoDivTexto="col-6"
+          />
         </div>
       </div>
 
@@ -57,10 +59,12 @@ export function CuerpoParteSuperior() {
               colorFondo="#F8DCFF"
               coloLinea="#A5A5A5"
               tamanioLetra="1rem"
-              textoBtn="Total de programas"
-              tamanioImgX="30%"
+              textoBtn="Total de Programas"
+              tamanioImgX="100%"
               colorLetra="#A5A5A5"
               negrita="true"
+              anchoDivImagen="col-5"
+              anchoDivTexto="col-7 "
             />
           </div>
           <div class="col-4">
@@ -72,7 +76,7 @@ export function CuerpoParteSuperior() {
               colorFondo="#F8DCFF"
               coloLinea="#A5A5A5"
               tamanioLetra="1rem"
-              textoBtn="Total de planes"
+              textoBtn="Total de Planes"
               tamanioImgX="30%"
               colorLetra="#A5A5A5"
               negrita="true"
