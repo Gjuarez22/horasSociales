@@ -1,7 +1,20 @@
 import { Botones } from "./Botones";
+import React, { useState } from 'react';
+
+
+
 export function Contenedor() {
+  
+  const [claseActiva, setClaseActiva] = useState(false);
+
+  //const [cambiarColor, setClaseActiva] = useState(false);
+
+  const agregarClase = () => {
+    setClaseActiva(prevState => !prevState);
+  };
+
   return (
-    <div class="cuadro cuadro-botones">
+    <div id="cuadroBtns" className={` ${claseActiva ? 'minimizar cuadro cuadro-botones' : 'cuadro cuadro-botones'}`} >
       <div class="row">
         <div class="col-3">
           <Botones
@@ -42,7 +55,8 @@ export function Contenedor() {
       </div>
         <br />
       <div class="d-flex justify-content-center">
-        <img  src="../assets/icons/flechaAbajo.png" alt="flecha " width="5%" />
+        <a id="rep" onClick={agregarClase}><img  src="../assets/icons/flechaAbajo.png" alt="flecha " width="100%" /></a>
+        
       </div>
     </div>
   );

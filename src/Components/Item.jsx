@@ -6,7 +6,9 @@
           fontWeight:'bold'  ,
           border: "2px solid #ACACAC",
           height:"50px",
-          alignItems :" center"
+          alignItems :" center",
+          marginBottom: "10px",
+          width:"100%",
       }
     /* style={{
           width: "70%",
