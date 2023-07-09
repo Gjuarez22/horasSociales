@@ -25,7 +25,7 @@ export function CuerpoParteSuperior() {
           </div>
         </div>
 
-        <div class="col-4 d-flex  d-flex justify-content-end">
+        <div class="col-4 d-flex justify-content-end">
         <BotonCuerpo 
             urlIcono="../assets/icons/flecha.png"
             tamanioX="60%"
@@ -50,7 +50,7 @@ export function CuerpoParteSuperior() {
       <br />
 
       <div class=" d-flex justify-content-center">
-        <div class="row" style={{ width: "60%", height: "80px" }}>
+        <div class="row" style={{ width: "65%", height: "80px" }}>
           <div class="col-4">
             <BotonCuerpo
               urlIcono="../assets/icons/icono_Auditoria.png"
@@ -61,7 +61,7 @@ export function CuerpoParteSuperior() {
               tamanioLetra="1rem"
               textoBtn="Total de Programas"
               tamanioImgX="100%"
-              colorLetra="#A5A5A5"
+              colorLetra="#727272"
               negrita="true"
               anchoDivImagen="col-5"
               anchoDivTexto="col-7 "
@@ -77,9 +77,11 @@ export function CuerpoParteSuperior() {
               coloLinea="#A5A5A5"
               tamanioLetra="1rem"
               textoBtn="Total de Planes"
-              tamanioImgX="30%"
-              colorLetra="#A5A5A5"
+              tamanioImgX="100%"
+              colorLetra="#727272"
               negrita="true"
+              anchoDivImagen="col-5"
+              anchoDivTexto="col-7"
             />
           </div>
           <div class="col-4">
@@ -91,9 +93,11 @@ export function CuerpoParteSuperior() {
               coloLinea="#A5A5A5"
               tamanioLetra="1rem"
               textoBtn="KPI y resultados"
-              tamanioImgX="30%"
-              colorLetra="#A5A5A5"
+              tamanioImgX="100%"
+              colorLetra="#727272"
               negrita="true"
+              anchoDivImagen="col-5"
+              anchoDivTexto="col-7"
             />
           </div>
         </div>
@@ -104,14 +108,16 @@ export function CuerpoParteSuperior() {
         <BotonCuerpo
         urlIcono="../assets/icons/icono_agregar.png"
         coloLinea="#A5A5A5"
-        tamanioX="40%"
+        tamanioX="55%"
         tamanioY="50px"
-        tamanioImgX="8%"
+        tamanioImgX="70%"
+        tamanioImgY="40px"
         colorFondo="#C1F7D3"
         textoBtn="Seleccionar Plantilla - Plan de Auditoría"
         colorLetra="#727380"
         negrita="true"
-        espacioLetraImg="4%"
+        anchoDivImagen="col-2"
+        anchoDivTexto="col-10"
         />
       </div>
     </div>
